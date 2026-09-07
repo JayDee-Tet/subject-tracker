@@ -12,7 +12,7 @@ const modals = {
 const deadlines = {
   'automata': new Date('2026-09-09T14:30:00'),
   'arch':     null,
-  'mobile':   new Date('2026-10-10T09:00:00'),
+  'mobile':   new Date('2026-09-10T09:00:00'),
   'softeng':  null,
 };
 
