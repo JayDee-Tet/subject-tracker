@@ -10,9 +10,9 @@ const modals = {
 // Format: new Date('YYYY-MM-DDTHH:MM:00')
 // Set to null if deadline is not yet known.
 const deadlines = {
-  'automata': new Date('2026-09-09T23:59:00'),
+  'automata': new Date('2026-09-09T14:30:00'),
   'arch':     null,
-  'mobile':   new Date('2026-09-10T23:59:00'),
+  'mobile':   new Date('2026-10-10T09:00:00'),
   'softeng':  null,
 };
 
