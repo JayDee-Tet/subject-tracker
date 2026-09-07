@@ -63,6 +63,7 @@ header p {
   transition: background 0.18s ease;
   position: relative;
   overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card:hover {
