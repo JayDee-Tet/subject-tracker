@@ -285,3 +285,22 @@ header p {
 @media (max-width: 480px) {
   .modal { padding: 28px 20px 24px; }
 }
+
+/* ── Countdown ── */
+.card-countdown {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.modal-countdown {
+  margin-left: auto;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.countdown-urgent {
+  color: #FF6B6B !important;
+}
