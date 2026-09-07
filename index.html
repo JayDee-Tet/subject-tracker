@@ -18,9 +18,6 @@
 
   <div class="grid">
 
-    <!-- ─────────────────────────────────────────
-         CARD 1 — Automata Theory
-    ───────────────────────────────────────── -->
     <div
       class="card"
       role="button"
@@ -35,9 +32,6 @@
       <span class="card-hint">tap to open ↗</span>
     </div>
 
-    <!-- ─────────────────────────────────────────
-         CARD 2 — Architecture & Organization
-    ───────────────────────────────────────── -->
     <div
       class="card"
       role="button"
@@ -48,7 +42,21 @@
     >
       <div class="card-tag">Subject</div>
       <div class="card-title">Architecture &amp; Organization</div>
-      <div class="card-deadline">Due Sep 11, 2026</div>
+      <div class="card-deadline">Due ???</div>
+      <span class="card-hint">tap to open ↗</span>
+    </div>
+
+    <div
+      class="card"
+      role="button"
+      tabindex="0"
+      aria-label="Mobile Computing"
+      onclick="openModal('mobile')"
+      onkeydown="if(event.key==='Enter'||event.key===' ')openModal('mobile')"
+    >
+      <div class="card-tag">Subject</div>
+      <div class="card-title">Mobile Computing</div>
+      <div class="card-deadline">Due Sep 10, 2026</div>
       <span class="card-hint">tap to open ↗</span>
     </div>
 
@@ -60,106 +68,75 @@
 
   </div>
 
-
-  <!-- ═══════════════════════════════════════
-       MODALS
-  ═══════════════════════════════════════ -->
-
   <div class="overlay" id="overlay" onclick="handleOverlayClick(event)">
 
-    <!-- Modal: Automata Theory -->
     <div class="modal" id="modal-automata" role="dialog" aria-modal="true" aria-labelledby="title-automata" style="display:none;">
       <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
-
       <div class="modal-tag">Subject</div>
       <div class="modal-title" id="title-automata">Automata Theory &amp; Formal Language</div>
-
       <div class="modal-section">
         <div class="modal-label">To Do</div>
         <div class="modal-value">Watch tutorials and read the PDF.</div>
       </div>
-
       <div class="modal-section">
         <div class="modal-label">Resources</div>
         <div class="modal-value">
-          <a href="https://drive.google.com/drive/folders/141R_Z9nFQBEBMRj67OcotndZXpBxiCTR?usp=sharing" target="_blank" rel="noopener">
-            Open Drive Folder ↗
-          </a>
+          <a href="https://drive.google.com/drive/folders/141R_Z9nFQBEBMRj67OcotndZXpBxiCTR?usp=sharing" target="_blank" rel="noopener">Open Drive Folder ↗</a>
         </div>
         <div class="modal-value">
-          <a href="https://docs.google.com/presentation/d/1hXrwqnPUX2FMKzDUir1ZSZju4N0pVI7a/edit?usp=drive_link&ouid=100852468563598346141&rtpof=true&sd=true" target="_blank" rel="noopener">
-            Open PPTX File ↗
-          </a>
+          <a href="https://docs.google.com/presentation/d/1hXrwqnPUX2FMKzDUir1ZSZju4N0pVI7a/edit?usp=drive_link&ouid=100852468563598346141&rtpof=true&sd=true" target="_blank" rel="noopener">Open PPTX File ↗</a>
         </div>
       </div>
-
       <hr class="divider" />
-
       <div class="modal-deadline-row">
         <span class="dot"></span>
         Deadline: <strong>Sep 9, 2026</strong>
       </div>
     </div>
 
-    <!-- Modal: Architecture & Organization -->
     <div class="modal" id="modal-arch" role="dialog" aria-modal="true" aria-labelledby="title-arch" style="display:none;">
       <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
-
       <div class="modal-tag">Subject</div>
       <div class="modal-title" id="title-arch">Architecture &amp; Organization</div>
-
       <div class="modal-section">
         <div class="modal-label">To Do</div>
         <div class="modal-value">Read the PDF.</div>
       </div>
-
       <div class="modal-section">
         <div class="modal-label">Resources</div>
         <div class="modal-value">
-          <a href="https://drive.google.com/drive/folders/1qUFjcMu5_HGboLVOVrCGlvOXWKVDB3Yj?usp=drive_link" target="_blank" rel="noopener">
-            Open Drive Folder ↗
-          </a>
+          <a href="https://drive.google.com/drive/folders/1qUFjcMu5_HGboLVOVrCGlvOXWKVDB3Yj?usp=drive_link" target="_blank" rel="noopener">Open Drive Folder ↗</a>
         </div>
-        
       </div>
-
       <hr class="divider" />
-
       <div class="modal-deadline-row">
         <span class="dot"></span>
         Deadline: <strong>???</strong>
       </div>
     </div>
 
-    <!--
-    <div class="modal" id="modal-YOURID" role="dialog" aria-modal="true" aria-labelledby="title-YOURID" style="display:none;">
+    <div class="modal" id="modal-mobile" role="dialog" aria-modal="true" aria-labelledby="title-mobile" style="display:none;">
       <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
-
       <div class="modal-tag">Subject</div>
-      <div class="modal-title" id="title-YOURID">Subject Name Here</div>
-
+      <div class="modal-title" id="title-mobile">Mobile Computing</div>
       <div class="modal-section">
         <div class="modal-label">To Do</div>
-        <div class="modal-value">What needs to be done.</div>
+        <div class="modal-value">Watch YouTube video.</div>
       </div>
-
       <div class="modal-section">
         <div class="modal-label">Resources</div>
         <div class="modal-value">
-          <a href="YOUR_LINK_HERE" target="_blank" rel="noopener">Open Link ↗</a>
+          <a href="https://youtu.be/lWvLhwS3FAM" target="_blank" rel="noopener">Watch on YouTube ↗</a>
         </div>
       </div>
-
       <hr class="divider" />
-
       <div class="modal-deadline-row">
         <span class="dot"></span>
-        Deadline: <strong>Month DD, YYYY</strong>
+        Deadline: <strong>Sep 10, 2026</strong> (presumably next class)
       </div>
     </div>
-    -->
 
-  </div><!-- /overlay -->
+  </div>
 
   <script src="script.js"></script>
 
