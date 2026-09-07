@@ -5,6 +5,7 @@ const modals = {
   'automata': 'modal-automata',
   'arch':     'modal-arch',
   'mobile':   'modal-mobile',
+  'softeng':  'modal-softeng',
 };
 
 let activeModal = null;
