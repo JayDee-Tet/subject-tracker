@@ -12,8 +12,8 @@
 <body>
 
   <header>
-    <h1>Subject Tracking Websissy</h1>
-    <p>ONE MINUTE BEFORE THE DEADLINE IS DOABLE EHUEHUEHUEHUEHU-</p>
+    <h1>Subject Tracker</h1>
+    <p>Click a subject to see what needs to be done.</p>
   </header>
 
   <div class="grid">
@@ -28,7 +28,7 @@
     >
       <div class="card-tag">Subject</div>
       <div class="card-title">Automata Theory &amp; Formal Language</div>
-      <div class="card-deadline">Due TBA</div>
+      <div class="card-deadline">Due Sep 9, 2026</div>
       <span class="card-hint">tap to open ↗</span>
     </div>
 
@@ -56,7 +56,21 @@
     >
       <div class="card-tag">Subject</div>
       <div class="card-title">Mobile Computing</div>
-      <div class="card-deadline">Due Sep 10, 2026, maybe.</div>
+      <div class="card-deadline">Due Sep 10, 2026</div>
+      <span class="card-hint">tap to open ↗</span>
+    </div>
+
+    <div
+      class="card"
+      role="button"
+      tabindex="0"
+      aria-label="Software Engineering"
+      onclick="openModal('softeng')"
+      onkeydown="if(event.key==='Enter'||event.key===' ')openModal('softeng')"
+    >
+      <div class="card-tag">Subject</div>
+      <div class="card-title">Software Engineering</div>
+      <div class="card-deadline">Due —</div>
       <span class="card-hint">tap to open ↗</span>
     </div>
 
@@ -76,7 +90,7 @@
       <div class="modal-title" id="title-automata">Automata Theory &amp; Formal Language</div>
       <div class="modal-section">
         <div class="modal-label">To Do</div>
-        <div class="modal-value">Watch vids and read the PDF.</div>
+        <div class="modal-value">Watch tutorials and read the PDF.</div>
       </div>
       <div class="modal-section">
         <div class="modal-label">Resources</div>
@@ -90,7 +104,7 @@
       <hr class="divider" />
       <div class="modal-deadline-row">
         <span class="dot"></span>
-        Deadline: <strong>TBA</strong>
+        Deadline: <strong>Sep 9, 2026</strong>
       </div>
     </div>
 
@@ -100,7 +114,7 @@
       <div class="modal-title" id="title-arch">Architecture &amp; Organization</div>
       <div class="modal-section">
         <div class="modal-label">To Do</div>
-        <div class="modal-value">Read the PDF. Read it. READ. IT.</div>
+        <div class="modal-value">Read the PDF.</div>
       </div>
       <div class="modal-section">
         <div class="modal-label">Resources</div>
@@ -121,7 +135,7 @@
       <div class="modal-title" id="title-mobile">Mobile Computing</div>
       <div class="modal-section">
         <div class="modal-label">To Do</div>
-        <div class="modal-value">Watch YT video.</div>
+        <div class="modal-value">Watch YouTube video.</div>
       </div>
       <div class="modal-section">
         <div class="modal-label">Resources</div>
@@ -133,6 +147,29 @@
       <div class="modal-deadline-row">
         <span class="dot"></span>
         Deadline: <strong>Sep 10, 2026</strong> (presumably next class)
+      </div>
+    </div>
+
+    <div class="modal" id="modal-softeng" role="dialog" aria-modal="true" aria-labelledby="title-softeng" style="display:none;">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      <div class="modal-tag">Subject</div>
+      <div class="modal-title" id="title-softeng">Software Engineering</div>
+      <div class="modal-section">
+        <div class="modal-label">Task</div>
+        <div class="modal-value">Proposals</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-label">Instructions</div>
+        <div class="modal-value">Your project proposal will cover everything we have learned from research gathering to technical and methodologies. You may also begin researching your titles in which you can conduct a proposal on. Focus on system development project and with a specific location/agency.</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-label">Resources</div>
+        <div class="modal-value">N/A</div>
+      </div>
+      <hr class="divider" />
+      <div class="modal-deadline-row">
+        <span class="dot"></span>
+        Deadline: <strong>—</strong>
       </div>
     </div>
 
