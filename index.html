@@ -52,28 +52,19 @@
       <span class="card-hint">tap to open ↗</span>
     </div>
 
-    <!-- ─────────────────────────────────────────
-         EMPTY / BOILERPLATE CARD
-         To add a new subject:
-           1. Duplicate this block
-           2. Give it a unique onclick id (e.g. 'subject3')
-           3. Fill in card-title and card-deadline
-           4. Copy the modal template below and fill it in
-    ───────────────────────────────────────── -->
     <div class="card empty" aria-label="Empty card placeholder">
       <div class="card-tag">Subject</div>
       <div class="card-title">Subject Name Here</div>
       <div class="card-deadline">Due —</div>
     </div>
 
-  </div><!-- /grid -->
+  </div>
 
 
   <!-- ═══════════════════════════════════════
        MODALS
   ═══════════════════════════════════════ -->
 
-  <!-- Overlay wrapper — clicking outside closes modal -->
   <div class="overlay" id="overlay" onclick="handleOverlayClick(event)">
 
     <!-- Modal: Automata Theory -->
@@ -140,17 +131,6 @@
       </div>
     </div>
 
-    <!--
-      ════════════════════════════════════════
-      EMPTY / BOILERPLATE MODAL
-      To add a new modal:
-        1. Copy this block and uncomment it
-        2. Change id="modal-YOURID" (must match onclick in the card)
-        3. Change aria-labelledby="title-YOURID" and id="title-YOURID"
-        4. Fill in To Do, Resources, and Deadline
-        5. Add your new id to the modals object in script.js
-      ════════════════════════════════════════
-    -->
     <!--
     <div class="modal" id="modal-YOURID" role="dialog" aria-modal="true" aria-labelledby="title-YOURID" style="display:none;">
       <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
