@@ -48,6 +48,7 @@ const subjects = [
     links:        [],
     deadline:     null,
   },
+  {
     id:           'fds',
     title:        'Fundamenals of Data Science',
     todo:         'Topic 8 Activity',
