@@ -54,6 +54,7 @@ const subjects = [
     instructions: 'Read and execute all the codes in the file that I will send po for our asynchronous class today po and for your quiz next meeting.',
     links:        [],
     deadline:     new Date('2026-09-09T23:59:00'),
+  }
 ];
 
 
