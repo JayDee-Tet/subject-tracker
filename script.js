@@ -53,7 +53,7 @@ const subjects = [
     title:        'Fundamenals of Data Science',
     todo:         'Topic 8 Activity',
     instructions: 'Read and execute all the codes in the file that I will send po for our asynchronous class today po and for your quiz next meeting.',
-    links:        {[label: 'Download PDF', url: 'https://cdn.fbsbx.com/v/t59.2708-21/472549542_585864207581966_2801499332644280600_n.pdf/Topic-8.pdf?_nc_cat=111&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeE3vH0qB0B4g4oNmCQkPfEHM2WtFx_xvH4zZa0XH_G8fm0SeOKZJ5037KccWQCGzFlpxJiB_1xYyEfBTBEUKh8b&_nc_ohc=OvnhnwNerakQ7kNvwFVglc_&_nc_oc=AdoDnAid3HrcWHDhZzgsW1HU2C8FsJKZGcM6BQ_7rllqz_X-N8LYXLbTm9Gi3C8tLMs&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=LIEEL9R_HZRJaD9quKuQJg&_nc_ss=7a22e&oh=03_Q7cD6QHX5eUs7PtYRtv6JYcvEHI5ZS6jF76LODiw0LGEQgTkbA&oe=6AA1D1F5&dl=1']},
+    links:        [{label: 'Download PDF', url: 'https://cdn.fbsbx.com/v/t59.2708-21/472549542_585864207581966_2801499332644280600_n.pdf/Topic-8.pdf?_nc_cat=111&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeE3vH0qB0B4g4oNmCQkPfEHM2WtFx_xvH4zZa0XH_G8fm0SeOKZJ5037KccWQCGzFlpxJiB_1xYyEfBTBEUKh8b&_nc_ohc=OvnhnwNerakQ7kNvwFVglc_&_nc_oc=AdoDnAid3HrcWHDhZzgsW1HU2C8FsJKZGcM6BQ_7rllqz_X-N8LYXLbTm9Gi3C8tLMs&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=LIEEL9R_HZRJaD9quKuQJg&_nc_ss=7a22e&oh=03_Q7cD6QHX5eUs7PtYRtv6JYcvEHI5ZS6jF76LODiw0LGEQgTkbA&oe=6AA1D1F5&dl=1'},],
     deadline:     new Date('2026-09-09T23:59:00'),
   },
 ];
