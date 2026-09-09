@@ -16,10 +16,13 @@ const subjects = [
     title:    'Automata Theory & Formal Language',
     todo:     'Watch tutorials and read the PDF.',
     links: [
-      { label: 'Open Drive Folder', url: 'https://drive.google.com/drive/folders/141R_Z9nFQBEBMRj67OcotndZXpBxiCTR?usp=sharing' },
-      { label: 'Open PPTX File',    url: 'https://docs.google.com/presentation/d/1hXrwqnPUX2FMKzDUir1ZSZju4N0pVI7a/edit?usp=drive_link&ouid=100852468563598346141&rtpof=true&sd=true' },
+      { label: 'Lessong 4 Drive', url: 'https://drive.google.com/drive/folders/141R_Z9nFQBEBMRj67OcotndZXpBxiCTR?usp=sharing' },
+      { label: 'Download Lesson 4 PPTX',    url: 'https://cdn.fbsbx.com/v/t59.2708-21/799404038_1412922734269100_6178142865651889244_n.pptx/Lesson-4_Non-Deterministic_Finite_Automata.pptx?_nc_cat=107&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeGjauhJn_EweUm8f7DHrXKCxolcyjSjut_GiVzKNKO639vSWOXcM392tsQYjmFpHT3CnuvlZXfjSyFc8sZP8Ovj&_nc_ohc=FL-k8pw_5w8Q7kNvwFZqq73&_nc_oc=AdpcmDQm6Ya9-msLkNum00pMScKsXqwVjp_WAey1AtgEKHyiE32G2Yq1kEPRSLg3eeQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=C6qStObQD8VHWFnxrGvlTw&_nc_ss=7a22e&oh=03_Q7cD6QH-33Ya4YQXdolo_H2t_xwL_5VTLTwvbeHwHSQRueYwmw&oe=6AA2EFD8&dl=1' },
+      { label: 'Lessong 4 Drive', url: 'https://drive.google.com/drive/folders/1AJDPS1TfpA_CiLLBE7NMrplt1vGQ6UiQ' },
+      { label: 'Download Lesson 4 PPTX',    url: 'https://cdn.fbsbx.com/v/t59.2708-21/470400120_949093140480521_1049891345508830970_n.pptx/Lesson-5_Conversion.pptx?_nc_cat=103&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeEVt06XE_7z8EqN9tsxo2Ph4_k-xyOcuUTj-T7HI5y5RM23c9RSYas2vWv3_CCeHsZuB2tgr6M-oWRoJASdtRZl&_nc_ohc=yZDDwlFU1qQQ7kNvwEtSF-C&_nc_oc=AdocIS1LI9GHjkYdZAnaXrLt7KBwUxe2qBS86v_VU4RAEG8lOzPi-PM6lNBUmsjQxFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=olWJ5V1iDrnZMVDQmntW_Q&_nc_ss=7a22e&oh=03_Q7cD6QFRM3zC1kpw826LQ-MgjCRj1ZIgNa4cXGeQW8AAv1lwSA&oe=6AA2CA76&dl=1' },
     ],
-    deadline: new Date('2026-09-09T23:59:00'),
+    ],
+    deadline: null,
   },
   {
     id:    'arch',
