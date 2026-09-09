@@ -1,7 +1,3 @@
-// ═══════════════════════════════════════════════════════
-//  SUBJECTS — this is the only part you ever need to edit
-//
-//  Fields:
 //    id           — unique key, no spaces (e.g. 'softeng')
 //    title        — subject name shown on card and modal
 //    todo         — short task label
@@ -9,7 +5,7 @@
 //    links        — array of { label, url }; leave as [] if none
 //    deadline     — new Date('YYYY-MM-DDTHH:MM:00'), or null if unknown
 //    deadlineNote — (optional) extra note shown after the deadline date
-// ═══════════════════════════════════════════════════════
+
 const subjects = [
   {
     id:       'automata',
@@ -61,13 +57,6 @@ const subjects = [
   },
 ];
 
-
-// ═══════════════════════════════════════════════════════
-//  Everything below builds and runs the site automatically.
-//  No need to edit anything past this point.
-// ═══════════════════════════════════════════════════════
-
-// ── Build cards ───────────────────────────────────────
 function buildCards() {
   const grid = document.getElementById('grid');
 
@@ -95,7 +84,7 @@ function buildCards() {
     grid.appendChild(card);
   });
 
-  // Empty boilerplate card — always last
+  // Empty boilerplate card
   const empty = document.createElement('div');
   empty.className = 'card empty';
   empty.setAttribute('aria-label', 'Empty card placeholder');
@@ -107,7 +96,6 @@ function buildCards() {
   grid.appendChild(empty);
 }
 
-// ── Build modals ──────────────────────────────────────
 function buildModals() {
   const overlay = document.getElementById('overlay');
 
@@ -159,7 +147,7 @@ function buildModals() {
   });
 }
 
-// ── Countdown ─────────────────────────────────────────
+// ── Countdown
 function formatCountdown(deadline) {
   if (!deadline) return '—';
   const diff = deadline - new Date();
@@ -192,8 +180,8 @@ function updateCountdowns() {
   });
 }
 
-// ── Modal controls ────────────────────────────────────
 let activeModal = null;
+
 
 function openModal(id) {
   const target = document.getElementById(`modal-${id}`);
@@ -218,7 +206,7 @@ function handleOverlayClick(e) {
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-// ── Init ──────────────────────────────────────────────
+
 buildCards();
 buildModals();
 updateCountdowns();
