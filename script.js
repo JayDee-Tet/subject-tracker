@@ -27,6 +27,7 @@ const subjects = [
     todo:  'Read the PDF.',
     links: [
       { label: 'Open Drive Folder', url: 'https://drive.google.com/drive/folders/1qUFjcMu5_HGboLVOVrCGlvOXWKVDB3Yj?usp=drive_link' },
+       { label: 'Download PDF File',    url: 'https://cdn.fbsbx.com/v/t59.2708-21/794188621_1606489610913420_6005196771968394705_n.pdf/2026-Module-4-Computer-Data-Representation.pdf?_nc_cat=111&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeFISPPnmH2CUaXjXVQhugqR8vFDduCYnHzy8UN24JicfPG1Rv7sz2KJz32s2hdzi1e7dCajESsOfomitTyEv6As&_nc_ohc=L1L-5-jOI-cQ7kNvwER3_Gx&_nc_oc=Adp01WMei9ZqyInqVWAbsnF-mj_ogHDQDXv6h_08lmKQ0o0QFaDkxYUr1JUEvN6qL1k&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=iYuBluhjMqSooTGTR8dxSQ&_nc_ss=7a22e&oh=03_Q7cD6QGdywo0RmPS_7ZEfjz7NCyEmDpJAS8dkek3aOxbIVsTPw&oe=6AA2E05B&dl=1' },
     ],
     deadline: null,
   },
