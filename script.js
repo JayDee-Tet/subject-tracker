@@ -30,7 +30,7 @@ const subjects = [
     instructions: 'Your project proposal will cover everything we have learned from research gathering to technical and methodologies. You may also begin researching your titles in which you can conduct a proposal on. Focus on system development project and with a specific location/agency.',
     links:        [],
     instructions: 'Also this, read this:',
-    links:       [(https://cdn.fbsbx.com/v/t59.2708-21/469478443_606745668360313_7157696517998484586_n.pdf/SE-Module-6s-Software-Design-Strategies-and-Interface-Design.pdf?_nc_cat=108&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeE8i1wSzrqQfGHRzAYqTq1Cdqp1mQuoRkB2qnWZC6hGQPhNPbY-3mEXsZkipWFb7LOpIIZzNjDvRhIVpU-zInxz&_nc_ohc=utD7C9tH6qAQ7kNvwESrkCu&_nc_oc=AdoTUsT54dGx3yVKrA_iGOdpg7tBQJL3NUIQfBnlk0_GAd8Ik_p0_Egf5rUVRd0eLAo&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=EBbHoCD0CFNiiHnUzaO8UA&_nc_ss=7a22e&oh=03_Q7cD6QG4yZK_mGbSy-50iOdIBzCJlbny6io8M7NSFSIdSw5_9g&oe=6AAECF25&dl=1),],
+    links:       [{label: 'Link', url: 'https://cdn.fbsbx.com/v/t59.2708-21/469478443_606745668360313_7157696517998484586_n.pdf/SE-Module-6s-Software-Design-Strategies-and-Interface-Design.pdf?_nc_cat=108&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeE8i1wSzrqQfGHRzAYqTq1Cdqp1mQuoRkB2qnWZC6hGQPhNPbY-3mEXsZkipWFb7LOpIIZzNjDvRhIVpU-zInxz&_nc_ohc=utD7C9tH6qAQ7kNvwESrkCu&_nc_oc=AdoTUsT54dGx3yVKrA_iGOdpg7tBQJL3NUIQfBnlk0_GAd8Ik_p0_Egf5rUVRd0eLAo&_nc_ad=z-m&_nc_cid=0&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=EBbHoCD0CFNiiHnUzaO8UA&_nc_ss=7a22e&oh=03_Q7cD6QG4yZK_mGbSy-50iOdIBzCJlbny6io8M7NSFSIdSw5_9g&oe=6AAECF25&dl=1'},],
     deadline:     null,
   },
   {
