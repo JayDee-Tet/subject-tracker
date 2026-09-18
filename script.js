@@ -12,7 +12,7 @@ const subjects = [
     title:    'Research Methods in Computing',
     todo:     'Write Scope of Delimitation & Significance of the Study',
     links:     [],
-    deadline:  new Date('2026-09-28T07:00:00'),
+    deadline:  new Date('2026-09-28T23:00:00'),
   },
   {
     id:           'softeng',
@@ -28,7 +28,7 @@ const subjects = [
     todo:         'System Creation',
     instructions: 'Develop a System of your choice using Python, MySQL, and the Tabulate library. The system should allow the user to manage the system through a simple menu-driven interface. Store all information in a MySQL database, and display retrieved records in a properly formatted table using the Tabulate library.The system must support the following major operations: /n (1.Add, 2.View, 3.Search(optional), 4.Update, 5.Delete, 6.Exit)',
     links:        [],
-    deadline:     new Date('2026-09-09T23:59:00'),
+    deadline:     new Date('2026-09-28T23:00:00'),
   },
   {
     id:           'mobile',
